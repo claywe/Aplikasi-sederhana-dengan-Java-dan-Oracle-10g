@@ -23,7 +23,7 @@ public class formDokter extends javax.swing.JFrame {
     private void koneksi() throws SQLException {
         try {  
             Class.forName("oracle.jdbc.OracleDriver");  
-            obj = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:XE","41520010221Dewi", "ganis");           
+            obj = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1522:XE","Claywe", "wee");           
 
         } catch (ClassNotFoundException cnfe) {  
             
